@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>basic tags</title>
+    <!-- <style>
+        body{
+            margin-left: 30px;
+        } 
+    </style> -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <main>
+        <h2 class="introHead">Introduction to HTML and CSS</h2>
+    </main>
+    <p class="introHtml">Welcome to first HTML page.</p>
+
+    <pre>        
+        gud
+        morning
+        sundaram master
+    </pre>
+    
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <div>div - I am your Block-level Element</div>
+    <span>span - I am your In-line element</span>
+    <br>
+    <div class="row">
+    <div class="column">
+        <ul> 
+            <b>Unordered List</b> <br>
+            <i>Animals</i>
+            <li>Tiger</li>
+            <li>Cow</li>
+            <li>Lion</li>
+            <li>Elephant</li>
+        </ul>
+    </div>
+    
+    <div class="column">
+        <ol>
+            <b>Ordered List</b> <br>
+            <i>Vehicles</i>
+            <li>Cars</li>
+            <li>Bikes</li>
+            <li>Buses</li>
+            <li>Autos</li>
+        </ol>
+    </div>
+    </div>
+    <hr>
+    <nav>
+        <a href="#">HTML</a> |
+        <a href="#">CSS</a> |
+        <a href="#">JavaScript</a> |
+        <a href="#">Python</a>
+        </nav>
+    <div>
+        <dl>
+            <dt>HTML</dt>
+            <dd>Hypertext Markup Language</dd>
+            
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheets</dd>
+            
+            <dt>JavaScript</dt>
+            <dd>A scripting language that enables interactive web pages</dd>
+          </dl>
+          
+    </div>
+    
+    <a href="https://cdn.pixabay.com/photo/2024/05/15/08/23/bird-8763079_1280.jpg" target="_blank">
+    <img src="https://cdn.pixabay.com/photo/2024/05/15/08/23/bird-8763079_1280.jpg" width="20%", height="auto" alt="birdimage"> <br>
+    Click me
+    </a> <br> <br>
+    The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.
+    <address>
+        
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+
+    <figure>
+        <img src="https://cdn.pixabay.com/photo/2024/05/18/04/30/squirrel-8769483_1280.jpg" alt="squirrel" width="20%", height="auto">
+        <figcaption>Fig.1 - squirrel trying to jump.</figcaption>
+    </figure>
+    <div class="abt-squirrel">
+        I have the pleasure of introducing you to one of nature's most captivating creatures,the squirrel. With its bushy tail and nimble movements, the squirrel is a beloved resident of parks, forests, and even urban environments worldwide. Despite its small size, this furry friend is full of surprises and endless entertainment.
+    </div>
+    <iframe src="https://www.javatpoint.com/" title="javatpoint Free Online Web Tutorials" width="30%" height="250px"></iframe>
+
+    <h5>Menu</h5>
+    <menu>
+        <li>Tea</li>
+        <li>Coffee</li>
+        <li>Milk</li>
+    </menu>
+
+    <p id="demo"></p>
+
+    <section>
+        <h2>WWF History</h2>
+        <p>The World Wide Fund for Nature (WWF) is an international organization working on issues regarding the conservation, research and restoration of the environment, formerly named the World Wildlife Fund. WWF was founded in 1961.</p>
+    </section>
+
+    <p>This text contains <sub>subscript</sub> text, like H<sub>2</sub>o</p>
+    <p>This text contains <sup>superscript</sup> text, like a<sup>2</sup></p>
+
+    <div class="boxes">
+        <div class="box1">Sticky</div>
+        <div class="box2">Absolute</div>
+        <div class="box3">Relative</div>
+        <div class="box4"></div>
+    </div>
+
+    <h4>Table</h4>
+    
+    <table border="1px solid black">
+        <tr>
+            <th>S.no</th>
+            <th>Name</th>
+            <th>Job</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Shiva</td>
+            <td>Electician</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Raja</td>
+            <td>Developer</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Kalyan</td>
+            <td>Teacher</td>
+        </tr>
+    </table>
+
+    <div class="blocks">
+        <div class="block1">1</div>
+        <div class="block1">2</div>
+        <div class="block1">3</div>
+        <div class="block1">4</div>
+        <div class="block1">5</div>
+
+    </div>
+
+    <video width="640" height="360" controls>
+        <source src="https://youtube.com/shorts/IugP247ZEgo?feature=shared" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+
+
+    <div id="form-div">
+        <fieldset>
+        <legend>Fill your Information</legend>
+        <form method="post" class="form">
+            
+            <label for="s_number" id="label">S.No</label>
+            <input id="s_number" type="number" name="s_number"> <br> <br>
+            <label for="name" id="label">Name</label>
+            <input id="name" type="text" name="name"> <br> <br>
+            <label for="mail" id="label">Email</label>
+            <input id="mail" type="email" name="email"> <br> <br>
+            <label for="dob" id="label">DOB</label>
+            <input id="dob" type="date" name="birthdate"> <br> <br>
+            <label for="address" id="label">Location</label>
+            <input id="address" type="text" name="address"> <br> <br>
+            <label for="yourself" id="label">Tell us about yourself</label> <br>
+            <textarea name="yourself" id="yourself" row="3" cols="40"></textarea>
+            <br> <br>
+            <label for="study" id="label">Choose Study:</label>
+            <select id="study" name="study">
+                <option value="diploma">Diploma</option>
+                <option value="inter">Inter</option>
+                <option value="Btech">Btech</option>
+                <option value="degree">Degree</option>
+            </select>
+            <br> <br>
+            <label for="course" id="label">Choose Course:</label> <br>
+            <input type="checkbox" id="course1" name="course1" value="Java">
+            <label for="course1">Java</label><br>
+
+            <input type="checkbox" id="course2" name="course2" value="Python">
+            <label for="course2">Python</label><br>
+
+            <input type="checkbox" id="course3" name="course3" value="Dotnet">
+            <label for="course3">Dotnet</label><br><br>
+
+            <label for="gender" id="label">Choose Gender:</label>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br> <br>
+            <button type="reset" value="Reset" id="reset">Reset</button>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </fieldset>
+    </div>
+
+
+    <script>
+        document.getElementById("demo").innerHTML = "Hello JavaScript!";
+    </script>
+</body>
+</html>
