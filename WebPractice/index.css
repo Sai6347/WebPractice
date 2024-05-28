@@ -52,6 +52,7 @@ a:hover{
 }
 
 .boxes{
+    box-sizing: border-box;
     width: 1500px;
     height: 600px;
     border: 1px solid;

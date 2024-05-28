@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+        <div class="nav-main">
+            <div class="logo">
+                <a href="home.html">
+                    <img src="../portfolio-logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact.html">Contact me</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="contact-head">
+                <h1>Gallery</h1>
+                <p>Along with the development, i am passionate aboutt photography. Here are some of my captures. </p>
+            </div>
+            <div class="images">
+                <img src="../IMG20230221140954-01.jpg" alt="cyber towers">
+                <img src="../IMG20230425174856.jpg" alt="flower">
+                <img src="../IMG20231210180238.jpg" alt="baloons">
+                <img src="../IMG20240407084238.jpg" alt="calf">
+                <img src="../IMG20240407160420.jpg" alt="greenary">
+                <img src="../IMG20240407160844.jpg" alt="paddy fields">
+                <img src="../IMG20240518165429.jpg" alt="pond">
+                <img src="../PXL_20230715_065958121.PORTRAIT.jpg" alt="monkey">
+            </div>
+        </div>
+        <footer>
+            <div class="footer-row">
+                <div class="footer-col">
+                    <a href="home.html">
+                        <img src="../portfolio-logo.png" alt="">
+                    </a>
+                </div>
+                <div class="footer-col">
+                    <h3 style="color: rgb(218, 218, 218);">Quick Links</h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Contact.html">Contact me</a></li>
+                        <li><a href="Gallery.html">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 style="color: rgb(218, 218, 218);">Contact Us</h3>
+                    <ul>
+                        <li><a href="mailto:contactsb@gmail.com">contactsb@gmail.com</a></li>
+                        <li><a href="tel:+91-9980100123">+91-9989100123</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3 style="color: rgb(218, 218, 218);">Follow me on</h3>
+                    <ul class="ul">
+                        <li>
+                            <a href="#"><img class="logo" src="../linkedin logo.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img class="logo" src="../fb logo.png" alt=""></a>
+                        </li>
+                        <li>
+                            <a href=""><img class="logo" src="../instagram logo.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script>
+        // Get all the navigation links
+        const navLinks = document.querySelectorAll('.nav ul li a');
+
+        // Loop through each link
+        navLinks.forEach(link => {
+            // Check if the link's href matches the current page URL
+            if (link.href === window.location.href) {
+                // Add "active" class to the link's parent (list item)
+                link.parentElement.classList.add('active');
+            }
+        });
+    </script>
+</body>
+</html>
